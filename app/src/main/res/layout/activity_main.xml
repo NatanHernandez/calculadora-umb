@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A2E"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/tvOperacion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:text=""
+        android:textSize="22sp"
+        android:textColor="#6C6F8A"
+        android:gravity="bottom|end"
+        android:paddingEnd="12dp"
+        android:paddingBottom="4dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tvEntrada"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:text="0"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        android:textColor="#EAEAEA"
+        android:gravity="bottom|end"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp"
+        android:singleLine="true"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="30sp"
+        android:autoSizeMaxTextSize="72sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2A2A3E"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLimpiar"
+            style="@style/BtnFuncion"
+            android:text="C"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPlusMinus"
+            style="@style/BtnFuncion"
+            android:text="+/−"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBorrar"
+            style="@style/BtnBorrar"
+            android:text="⌫"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDividir"
+            style="@style/BtnOperador"
+            android:text="÷"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn7"
+            style="@style/BtnNumero"
+            android:text="7"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn8"
+            style="@style/BtnNumero"
+            android:text="8"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn9"
+            style="@style/BtnNumero"
+            android:text="9"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMultiplicar"
+            style="@style/BtnOperador"
+            android:text="×"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn4"
+            style="@style/BtnNumero"
+            android:text="4"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn5"
+            style="@style/BtnNumero"
+            android:text="5"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn6"
+            style="@style/BtnNumero"
+            android:text="6"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRestar"
+            style="@style/BtnOperador"
+            android:text="−"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1"
+            style="@style/BtnNumero"
+            android:text="1"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn2"
+            style="@style/BtnNumero"
+            android:text="2"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn3"
+            style="@style/BtnNumero"
+            android:text="3"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSumar"
+            style="@style/BtnOperador"
+            android:text="+"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn0"
+            style="@style/BtnNumero"
+            android:text="0"
+            android:layout_weight="2"
+            android:gravity="center" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPunto"
+            style="@style/BtnNumero"
+            android:text="."
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnIgual"
+            style="@style/BtnIgual"
+            android:text="="
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

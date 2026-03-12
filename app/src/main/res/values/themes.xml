@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Calculadora" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+
+    <style name="BtnNumero">
+    </style>
+
+    <style name="BtnOperador">
+    </style>
+
+    <style name="BtnFuncion">
+    </style>
+
+    <style name="BtnBorrar">
+    </style>
+
+    <style name="BtnIgual">
+    </style>
+
+</resources>
